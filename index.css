@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Pixel";
+  src: url(/Minecraft.ttf);
+}
+
+body {
+  font-family: "Pixel";
+}
+
+#map {
+  border: 5px solid black;
+  position: relative;
+}
+
+.snakePart {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: green;
+}
+
+.snakeHead {
+  background: darkgreen;
+}
+.point {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: red;
+}
+
+#pointCounter {
+  margin-top: 16px;
+  font-size: 20px;
+  color: rgb(115, 0, 255);
+}
